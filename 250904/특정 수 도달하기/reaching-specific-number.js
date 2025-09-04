@@ -8,7 +8,7 @@ for (let a of arr ){
         result+=Number(a)
         index+=1
     }else{
-        console.log(result,Math.round((result/index)*100)/100)
+        console.log(result,Math.round((result/index)*10)/10)
         break
     }
 
